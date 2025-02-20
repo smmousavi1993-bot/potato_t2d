@@ -1,13 +1,3 @@
-*****************************************************************************************;
-*						Aim: to calculate p for interaction								*;
-*****************************************************************************************;
-filename nhstools '/proj/nhsass/nhsas00/nhstools/sasautos/';
-filename local '/usr/local/channing/sasautos/';
-libname library '/proj/nhsass/nhsas00/formats/';
-options mautosource sasautos=(local nhstools);   *** path to macros  ***;
-options fmtsearch=(readfmt);                     *** path to formats ***;
-options nocenter;
-options linesize=125 pagesize=78 ;
 
 
 *******************************************;
