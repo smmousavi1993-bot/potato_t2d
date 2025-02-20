@@ -1,19 +1,3 @@
-*****************************************************************************************;
-*						Aim: to calculate p for interaction (for categorical variables with > 2 categories (meta-analysis))								*;
-*****************************************************************************************;
-filename nhstools '/proj/nhsass/nhsas00/nhstools/sasautos/'; 
-filename hpstools '/proj/hpsass/hpsas00/hpstools/sasautos/';
-/*filename local '/usr/local/channing/sasautos/';*/
-filename channing '/usr/local/channing/sasautos';
-filename ehmac '/udd/stleh/ehmac/';
-libname library '/proj/nhsass/nhsas00/formats/';
-libname readfmt '/proj/hpsass/hpsas00/formats/';
-options mautosource sasautos=(channing nhstools hpstools);
-/*options mautosource sasautos=(local nhstools);*/         *** path to macros  ***;
-/*options mautosource sasautos=(channing hpstools)*/;
-options fmtsearch=(readfmt) nofmterr;                            *** path to formats ***;
-options nocenter;
-options linesize=125 pagesize=78 ;
 
 
 *******************************************;
