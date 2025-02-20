@@ -1,13 +1,4 @@
-*****************************************************************************************;
-*						Aim: to calculate p for interaction								*;
-*****************************************************************************************;
-filename hpstools '/proj/hpsass/hpsas00/hpstools/sasautos';
-filename channing '/usr/local/channing/sasautos/';
-libname readfmt '/proj/hpsass/hpsas00/formats';
-options mautosource sasautos=(channing hpstools);
-options fmtsearch=(readfmt) nofmterr;
-options nocenter;
-options linesize=125 pagesize=78 ;
+
 
 
 *******************************************;
